@@ -1,1 +1,1 @@
-hello
+**format_string_padding.py**: It takes the address you want to write and the offset (where you find is vulnerable to format string) and then calculate the padding to write each single byte of the address into the offsets 
